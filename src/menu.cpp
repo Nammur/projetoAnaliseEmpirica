@@ -7,7 +7,7 @@ void menu(int *Array, int *ArrayIndex,int tamanhoVetor, int selecaoVetor){
     int umQuartoVetor = tamanhoVetor/4;
     int range = 0;
     
-    //vetor 0% ordenado
+    //vetor inverso
     if(selecaoVetor == 6){
         int first, last;
         first = 0;

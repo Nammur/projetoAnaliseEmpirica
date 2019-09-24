@@ -130,6 +130,8 @@ int main(){
             //roda quantas vezes tiver sido escolhido para rodar.
             while (vezes<vezesTotal){
                 std::cout << "Ordenando com Insertion sort" << std::endl;
+                //copia array para desordenado como estava antes
+                copiarReverso(Array, copia, tamanhoVetor);
                 //começa a cronometragem da execução
                 auto inicio = std::chrono::high_resolution_clock::now();  
                 //chama o algoritmo de ordenação
